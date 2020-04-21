@@ -4,7 +4,7 @@ header {
     height: 100%;
     vertical-align: bottom;
     margin: 0;
-    padding:160px;
+    padding:350px 160px;
     align-self: center;
 }
 
@@ -13,6 +13,12 @@ h1 {
     color: #fff;
     font-weight: 48px;
     margin: 0 0 8px;
+}
+
+.bg-header-container {
+    background: #6c757d;
+    border-radius: 50px;
+    opacity: 0.8;
 }
 
 .header-horizon {
@@ -26,7 +32,7 @@ h1 {
 
 p {
     text-align: center;
-    color:rgba(255, 255, 255, 0.75);
+    color: #fff;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -41,31 +47,22 @@ button {
     text-align: center;
 }
 
-.header-btn {
-    padding: 1.25rem 2.25rem;
-    font-size: 0.85rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 10rem;
-}
-
 .container {
     text-align: center;
     font-size: 10px;
 
 }
 
-.description {
+.profile {
     background-color: #f4623a;
     padding: 100px;
 }
 
-.h2-description {
+.h2-profile {
     color: #fff;
 }
 
-.description-horizon {
+.profile-horizon {
     max-width: 3.25rem;
     border-width: 0.2rem;
     border-color: #fff;
@@ -74,7 +71,13 @@ button {
     overflow: visible;
 }
 
-.description-btn {
+.sns-icon li{
+    display: inline-block;
+    font-size: 40px;
+    margin-right: 40px;
+}
+
+.profile-btn {
     background-color: #fff;
     color: black;
     padding: 1.25rem 2.25rem;
@@ -107,6 +110,7 @@ button {
     width: 100%;
     padding: 0;
     margin: 0;
+    height: 100%;
 }
 
 .no-gutters {
@@ -121,7 +125,7 @@ button {
 
 .h2-download {
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 0.5rem;
 }
 
 .download-btn {
@@ -133,6 +137,15 @@ button {
     text-transform: uppercase;
     border: none;
     border-radius: 10rem;
+}
+
+.download-horizon {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: #fff;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
 }
 
 .contact {
@@ -155,4 +168,81 @@ button {
 
 footer {
     text-align: center;
+}
+
+.biography {
+    font-size: 10px;
+}
+.progress-layout {
+    height: 20px;
+    margin: 10px;
+
+}
+
+h5 {
+    width: 100px;
+}
+
+.progress-content {
+    font-size: 10px;
+    text-align: left;
+    margin: auto;
+    padding: inherit;
+}
+
+.box {
+    display: flex;
+    padding:20px;
+  }
+  .box .img {
+    margin: 0 20px 0 0;
+  }
+  .box:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  .box:nth-child(even) .img {
+    margin: 0 0 0 20px;
+  }
+  
+  .text-box{
+    width:calc(100% - 320px);
+    text-align: center;
+    align-self: center;
+  }
+  
+  /* unrelated css */
+  
+  .img {
+    width:300px;
+    height:200px;
+    background: #bbb;
+    display: flex;
+    font-size:36px;
+    color:#fff;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .h2-promise {
+      text-align: center;
+      color: #47B39D;
+      padding-top: 40px;
+  }
+
+  .promise-paragraph {
+      color: white;
+      font-size: 20px;
+  }
+
+  .promise-container {
+      background: #3B4552;
+  }
+
+  .promise-horizon {
+    max-width: 1000px;
+    border-width: 0.2rem;
+    border-color: #f4623a;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
 }
